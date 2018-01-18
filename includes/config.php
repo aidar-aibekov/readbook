@@ -3,7 +3,7 @@
 $config = array(
        'db' => array('host' => 'localhost:3306',
        'username' => 'root',
-       'password' => '56632524',
+       'password' => '',
        'name' => 'buchdatabase'
       )
     );
