@@ -1,0 +1,978 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open Sans:400,700');
+ p { font-family: 'Open Sans', sans-serif;
+
+ }
+body{
+  	font-family: 'Open Sans', sans-serif;
+    margin: auto;
+  }
+html{
+  font-size: 15px;
+}
+.main-header{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.main-menu{
+
+
+}
+
+.main-menu ul.hr {
+
+    margin: 10px; /* Обнуляем значение отступов */
+    padding: 10px; /* Значение полей */
+    margin-left: 150px;
+    margin-right: 100px;
+
+   }
+.main-menu ul.hr li {
+
+    display: inline-block; /* Отображать как строчный элемент */
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 5px;
+    border: 10px;
+    text-decoration: none;
+}
+.main-menu ul.hr li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    width: 70px;
+  	padding: 5px;
+  	background: #fff;
+  	margin: 5px 0 0 5px;
+  	border: 2px solid #FFF;
+  	margin-bottom: 10px;
+  	background: #fff;
+
+}
+.main-menu ul.hr li a:hover {
+    transition:0.5s;
+    border-top: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
+}
+.main-menu ul.hr li a:not(:hover) {
+    transition:0.5s;
+}
+.main-line-image{
+  text-align: center;
+
+}
+.main-logo{
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  height:100%;
+}
+.reg-block{
+  margin-top: -40px;
+  margin-left: 75%;
+}
+.wrapper {
+	display:table-cell;
+	vertical-align:middle;
+}
+.content {
+	position: relative;
+	display:table;
+	width: 100%;
+  margin-top: -15px;
+	text-align: center;
+	color: #fff;
+	height: 100vh;
+	background: #000 url(../media/index-images/bg-image.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-overlay {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+/*Оформление каталога. Поле после главного фото*/
+.catalog{
+  height: 400px;
+  width: 999px;
+  margin: auto;
+}
+.block1{
+  margin-top:50px;
+  height: 400px;
+  width: 333px;
+}
+.block2{
+  margin-top:-400px;
+  margin-left: 333px;
+  height: 400px;
+  width: 333px;
+}
+.block3{
+  margin-top:-400px;
+  margin-left: 666px;
+  height: 400px;
+  width: 333px;
+}
+.image-block1-div{
+  text-align: center;
+}
+.text-block1{
+  text-align: center;
+}
+.image-block1{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  /*border: 3px solid blue;]*/
+  box-shadow: 0 0 20px #666;
+}
+.image-block1:hover{
+  transition: 0.3s;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  /*border: 3px solid blue;]*/
+  box-shadow: 0 0 40px #666;
+}
+.image-block1:not(:hover) {
+  transition: 0.3s;
+}
+/* Конец оформления каталога. Поле после главного фото*/
+
+
+/*Оформление следующего блока после каталога*/
+.wrapper2 {
+	display:table-cell;
+	vertical-align:middle;
+}
+.content2 {
+	position: relative;
+	display:table;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	height: 140vh;
+	background: #000 url(../media/index-images/bg-image2.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-overlay2 {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+.citate1-index{
+  padding-top: 200px;
+  padding-left: 200px;
+  font-size: 25px;
+  width: 550px;
+}
+.citate1-index-author{
+  padding-right: 400px;
+}
+/* Конец оформления следующего блока.*/
+
+/* оформление диаграммы популярных жанров на сайте*/
+.diagram-genres-with-description-index{
+  height: 340px;
+  width: 1200px;
+  margin: auto;
+
+}
+.diagram-genres-index{
+  height: 300px;
+  width: 550px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 600px;
+}
+.heading {
+    font-size: 25px;
+    /* margin-right: 25px; */
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+
+.side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+}
+
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+.genres-description-index{
+  height: 300px;
+  width: 550px;
+  margin-left: 20px;
+  position:absolute;
+  margin-top: -320px;
+}
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 20px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+/*конец оформления пополуярных сайтов на жанре*/
+
+
+
+/*Оформление следующего блока после статистки по жанрам*/
+.wrapper3 {
+	display:table-cell;
+	vertical-align:middle;
+}
+.content3 {
+	position: relative;
+	display:table;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	height: 100vh;
+	background: #000 url(../media/index-images/third-main-image.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content-overlay3 {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+}
+.citate2-index{
+  padding-top: 100px;
+  font-size: 25px;
+  width: 620px;
+}
+.citate2-index-author{
+  padding-right: 550px;
+}
+/* Конец оформления.*/
+
+/*Оформление части о Тае лопезе*/
+.tai-lopez-div{
+  margin: auto;
+  width: 80.6%;
+  height:600px;
+}
+.video-tai-lopez{
+  padding-top: 50px;
+  padding-left: 0px;
+}
+.img-tai-lopez{
+  margin-left: 600px;
+  margin-top: -400px;
+}
+.tai-lopez-image{
+  width: 100%;
+  height: 100%;
+}
+.p-tai-lopez{
+  margin-top: -60px;
+  width: 700px;
+  font-size: 18px;
+}
+.p2-tai-lopez{
+  margin-top: -400px;
+  width: 120px;
+  margin-left: 600px;
+  font-size: 30px;
+}
+/*Конец оформления части о Тае лопезе*/
+
+/*Оформление books.php containers*/
+*{
+  box-sizing: border-box;
+}
+.container1-h1{
+  text-align: center;
+}
+.container1{
+  /*background-color: green;*/
+  width: 90%;
+  height: auto;
+  padding: 20px;
+  margin: -20px auto;
+}
+.row1{
+  padding: 20px;
+  /*background-color: red;*/
+}
+.column1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+  float: left;
+  height: 500px;
+}
+.column2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+  float: left;
+  height: 100px;
+}
+.clearfix:after{
+  content: "";
+  display: table;
+  width: 100%;
+}
+.image-book{
+  width:200px;
+  height:313px;
+  box-shadow: 0 0 10px #666;
+}.image-book:hover{
+  transition:0.3s;
+  box-shadow: 0 0 30px #666;
+}.image-book:not(:hover){
+  transition:0.5s;
+}
+.title-book{
+  text-decoration: none;
+  font-weight: bold;
+  font-size:20px;
+  text-align: center;
+  width:200px;
+}
+.links-to-article{
+  text-decoration: none;
+  color: black;
+}
+.author-book{
+
+  font-size: 19px;
+  width: 200px;
+  text-align: center;
+}
+.anzahl-book{
+  font-size: 16px;
+  width: 200px;
+  text-align: center;
+}
+
+.year-book{
+  width: 200px;
+  text-align: center;
+}
+.views-book{
+  width: 200px;
+  text-align: center;
+}
+
+/* Конец оформления books.php containers.*/
+
+/*Оформление article.php*/
+
+.article{
+  width: 80%;
+  height: auto;
+  padding: 30px;
+  margin: -20px auto;
+}
+.row-article{
+  border-radius: 18px;
+  padding: 30px;
+  display: block;
+  height: 420px;
+  background-color: #E8E8E8;
+}
+/*.column-article{
+
+  width: auto;
+  height: 313px;
+}*/
+.image-article{
+  margin-top: 30px;
+}
+.title-article{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: -350px;
+  text-align: center;
+}
+.author-article{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 210px;
+}
+.year-article{
+  vertical-align: top;
+  margin-top: 5px;
+  font-size: 18px;
+  margin-left: 210px;
+}
+.views-article{
+  font-size: 16px;
+  margin-top: -50px;
+  float:right;
+  margin-left: 200px;
+  text-align: right;
+
+}
+.description-article{
+  vertical-align: top;
+  margin-top: 5px;
+  font-size: 18px;
+  margin-left: 210px;
+}
+.table-article{
+  vertical-align: top;
+  margin: auto;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 210px;
+}
+.td-color-article{
+  color: #707070;
+}
+
+/* Конец оформления article.php*/
+
+
+
+
+
+/*Оформление author.php*/
+
+.author{
+  width: 80%;
+  height: auto;
+  padding: 30px;
+  margin: -20px auto;
+}
+.row-author{
+  border-radius: 18px;
+  padding: 30px;
+  display: block;
+  height: 420px;
+  padding-top: 320px;
+  background-color: #E8E8E8;
+}
+/*.column-article{
+
+  width: auto;
+  height: 313px;
+}*/
+.image-author{
+  margin-top: 30px;
+}
+.title-author{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: -300px;
+  text-align: center;
+}
+.author-author{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 210px;
+}
+.year-author{
+  vertical-align: top;
+  margin-top: 5px;
+  font-size: 18px;
+  margin-left: 210px;
+}
+.views-author{
+  font-size: 16px;
+  margin-top: -50px;
+  float:right;
+  margin-left: 200px;
+  text-align: right;
+
+}
+.description-author{
+  vertical-align: top;
+  margin-top: 5px;
+  font-size: 18px;
+  margin-left: 210px;
+}
+.books-author{
+  vertical-align: top;
+  margin-top: 5px;
+  font-size: 18px;
+  margin-left: 210px;
+}
+.table-author{
+  vertical-align: top;
+  margin: auto;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.td-color-author{
+  color: #707070;
+}
+
+/* Конец оформления author.php*/
+
+
+
+
+
+
+
+
+
+/*Оформление формы регистрации*/
+
+.label-login{
+	width: 30px;
+	display: inline-block;
+	padding: 5px;
+	margin: 0 0 0 10px;
+}
+.input-login{
+	width: 100px;
+	display: inline-block;
+	padding: 5px;
+	margin: 0 0 0 20px;
+}
+.button-login{
+	width: 70px;
+	padding: 5px;
+	background: #fff;
+	margin: 5px 0 0 5px;
+	border: 2px solid darkblue;
+	margin-bottom: 10px;
+	background: #fff;
+
+}
+.button-reg{
+	width: 100px;
+	padding: 5px;
+	background: #fff;
+	margin: 5px 0 0 5px;
+	border: 2px solid darkblue;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.button-reg a{
+	color: black;
+  text-decoration: none;
+
+}
+.button-login:hover {
+  transition:0.3s;
+	background: darkblue;
+	color: #fff;
+}
+.button-reg:hover {
+  transition:0.3s;
+	background: darkblue;
+	color: #fff;
+}
+.button-reg a:hover {
+  transition:0.3s;
+	background: darkblue;
+	color: #fff;
+}
+.button-login:not(:hover) {
+  transition:0.3s;
+}
+.button-reg:not(:hover) {
+  transition:0.3s;
+}
+.button-reg a:not(:hover) {
+  transition:0.3s;
+}
+
+
+.label-vhod{
+	width:200px;
+	display: inline-block;
+	padding: 5px;
+	margin: 0 0 0 10px;
+}
+.input-vhod{
+	width: 250px;
+	display: inline-block;
+	padding: 5px;
+	/*margin: 0 0 0 20px;*/
+}
+
+.button-vhod{
+
+	width: 250px;
+	padding: 5px;
+	background: #fff;
+	margin: 5px 0 0 215px;
+	border: 2px solid darkblue;
+	margin-bottom: 10px;
+	background: #fff;
+
+}
+.button-vhod:hover {
+  transition:0.3s;
+	background: darkblue;
+	color: #fff;
+}
+.button-vhod:not(:hover) {
+  transition:0.3s;
+}
+
+
+/*Оформление админки*/
+.main-admin{
+  margin: auto;
+  width: 900px;
+  height:300px;
+  background-color: #E8E8E8;
+  border-radius: 18px;
+}
+.main-admin-heightauto{
+  margin: auto;
+  width: 900px;
+  height:auto;
+  background-color: #E8E8E8;
+  border-radius: 18px;
+}
+.empty-space{
+  height: 100px;
+  width: 100%;
+}
+.menu-admin{
+  position: fixed;
+  margin-left: 30px;
+}
+.h1-admin{
+  text-align: center;
+}
+.block-buttons-book{
+  float: left;
+  margin-left: 150px;
+}
+.block-buttons-author{
+  float: right;
+  margin-right: 150px;
+}
+.table-book-in-all-files{
+  margin: auto;
+}
+.table-author-admin{
+  float: right;
+  margin-right: 100px;
+}
+.h2-position-admin{
+  /*background-color: green;*/
+  height: 50px;
+  width: 1000px;
+}
+.first-h2-admin{
+  width: 500px;
+  text-align: center;
+  margin-left: -20px;
+}
+.second-h2-admin{
+  width: 500px;
+  margin-left: 545px;
+  margin-top: -50px;
+
+}
+.buttons-admin{
+  font-size: 16px;
+  width: 150px;
+	padding: 5px;
+	background: #fff;
+	margin: 5px 0 0 5px;
+	border: 2px solid darkblue;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.buttons-admin:hover {
+  transition:0.3s;
+	background: darkblue;
+	color: #fff;
+}
+.buttons-admin:not(:hover) {
+  transition:0.3s;
+}
+/*Конец оформления aдминки*/
+
+
+
+
+/*Оформление добавления книги */
+.title-book-admin{
+  font-size: 16px;
+  text-align: center;
+}
+.title-book-input-admin{
+  font-size: 16px;
+  text-align: center;
+}
+.input-admin{
+	width: 300px;
+	display: inline-block;
+	padding: 5px;
+	margin: 0 0 0 20px;
+}
+
+/*Конец оформления добавления книги*/
+
+
+
+
+
+
+
+
+/* Оформление профиля */
+.main-profile{
+  border-radius: 18px;
+  background-color: #E8E8E8;
+  width: 75%;
+  height: auto;
+  padding: 30px;
+  margin: auto;
+}
+.image-profile{
+  width:256px;
+  height:256px;
+  box-shadow: 0 0 10px #666;
+}
+.title-profile{
+  font-size: 22px;
+}
+.hr-profile {
+  border: none;
+  background-color: #A9A9A9;
+  height: 2px;
+}
+.table-profile{
+  vertical-align: top;
+  margin: auto;
+  font-size: 18px;
+  margin-top: -230px;
+  margin-left: 275px;
+}
+.table-profile-div{
+  margin-top: -290px;
+  margin-bottom: 160px;
+}
+/* Конец оформления профиля */
+
+.footer{
+  padding-top: 59px;
+  width:100%;
+  height: 400px;
+  background-color: #222222;
+}
+.contacts-footer{
+  color: white;
+  width: 400px;
+  margin-left: 130px;
+}
+.creative-commons-footer{
+  color: white;
+  margin-left: 130px;
+  width: 750px;
+}
+.social-network-footer{
+  color: white;
+  width: 600px;
+  float: right;
+  margin-top: -310px;
+}
+.logo-footer{
+  margin-left: 950px;
+  margin-top: -80px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-main{
+  padding: 15px;
+}
+.img-about-page{
+  height: 100%;
+  width: 30%;
+}
+.img2-about-page{
+  border-radius: 20px;
+  height: 100%;
+  width: 30%;
+  float: right;
+  margin-right: 50px;
+  margin-top: -70px;
+}
+.image-about-page{
+    border-radius: 10px;
+}
+.image2-about-page{
+    border-radius: 10px;
+}
+.h1-about-page{
+  float: right;
+  margin-right: 120px;
+}
